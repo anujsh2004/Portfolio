@@ -130,7 +130,7 @@ export function Hero({ hasProfileImage }: { hasProfileImage: boolean }) {
                 <p className="px-6 text-xs text-foreground-secondary">
                   Add your photo at
                   <br />
-                  <span className="font-mono">/public/images/profile/profile.png</span>
+                  <span className="font-mono">public{hero.image}</span>
                 </p>
               </div>
             )}

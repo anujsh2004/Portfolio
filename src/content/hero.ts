@@ -24,7 +24,7 @@ export const hero = {
   primaryButton: { label: "View My Work", href: "#projects" },
   secondaryButton: { label: "Download Resume", href: "/resume/anuj-sharma-resume.pdf" },
   scrollHint: "Scroll to explore",
-  image: "/images/profile/profile.png",
+  image: "/images/profile/profile.jpg",
   techStackLabel: "Tech I work with",
   // Pulled from confirmed resume + project tech stacks — no invented tools.
   techStack: [
