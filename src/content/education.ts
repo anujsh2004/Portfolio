@@ -13,5 +13,5 @@ export const education: EducationInfo = {
   specialization: "Data Science specialization",
   institution: "Vellore Institute of Technology",
   batch: "2023 – 2027",
-  focusAreas: ["DSA", "ML", "System Design"],
+  focusAreas: ["DSA", "ML", "AI", "Data Science"],
 };
