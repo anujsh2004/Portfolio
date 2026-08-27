@@ -18,9 +18,9 @@ export interface TechStackItem {
 export const hero = {
   greeting: "Hi, I'm",
   name: "Anuj Sharma",
-  title: "AI Engineer & Full Stack Developer",
+  title: "AI & Data Engineering · Full-Stack Development",
   description:
-    "I build intelligent systems and digital products that solve real-world problems.",
+    "I'm a Computer Science (Data Science) undergrad at VIT building AI-driven systems and full-stack products — from computer vision pipelines to concurrency-safe backends.",
   primaryButton: { label: "View My Work", href: "#projects" },
   secondaryButton: { label: "Download Resume", href: "/resume/anuj-sharma-resume.pdf" },
   scrollHint: "Scroll to explore",
