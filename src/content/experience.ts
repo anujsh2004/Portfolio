@@ -9,6 +9,18 @@ export interface ExperienceEntry {
 
 export const experience: ExperienceEntry[] = [
   {
+    role: "Backend & AI Engineer (Intern)",
+    organization: "FOMO Entertainment Pvt. Ltd. · Remote",
+    date: "Oct 2025 – May 2026",
+    description:
+      "Built an LLM-based semantic verification agent on Google ADK that reads a parsed .eml as transcript context alongside the seller's listing and compares event, artist, venue, date and buyer identity field by field, catching a valid signature on a ticket for the wrong event.",
+    technologies: ["Google ADK", "Spring Boot", "Java", "SMTP/MIME"],
+    achievements: [
+      "Engineered the ingestion and verification stack in Spring Boot against SMTP and MIME specifications: parsing headers and body parts, validating the cryptographic signature and sender domain, and proving the seller forwarded the original, unaltered email.",
+      "Authored and ran the backend test suite over adversarial cases (mismatched events, forwarded chains, tampered bodies, replayed tickets), validating that genuine and fraudulent listings were classified correctly before rollout.",
+    ],
+  },
+  {
     role: "Student Coordinator, Riviera Fest",
     organization: "Vellore Institute of Technology",
     date: "2026",
