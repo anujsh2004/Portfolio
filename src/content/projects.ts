@@ -39,6 +39,7 @@ export const projects: Project[] = [
     technologies: ["Python", "FastAPI", "REST APIs", "React", "JavaScript", "YOLOv8", "FAISS", "Git"],
     image: "/images/projects/skynetra.png",
     github: "https://github.com/anujsh2004/SkyNetra",
+    live: "https://skynetra-frontend.vercel.app/",
     metrics: [
       { label: "Images Processed", value: "1,000+" },
       { label: "Cluster Purity", value: "87%" },
