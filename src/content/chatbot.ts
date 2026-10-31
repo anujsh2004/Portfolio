@@ -27,9 +27,9 @@ export const chatbotKnowledge: ChatbotEntry[] = [
       "I'm pursuing a B.Tech in Computer Science and Engineering (Data Science) at Vellore Institute of Technology (2023–2027), with a CGPA of 8.34/10.",
   },
   {
-    keywords: ["project", "skynetra", "slowmo", "zenstudent", "built", "portfolio"],
+    keywords: ["project", "cliniq", "eda", "skynetra", "slowmo", "zenstudent", "built", "portfolio"],
     answer:
-      "I've built three main projects: SkyNetra (a satellite image intelligence platform using YOLOv8 + FAISS), SlowMO (a concurrency-safe ticket booking backend in Spring Boot), and ZenStudent AI (a real-time stress-detection app using ML on physiological signals). Check the Projects section for details and links.",
+      "I've built several projects, including CliniQ (a multilingual voice-agent clinic booking SaaS with self-hosted speech models), SkyNetra (a satellite image intelligence platform using YOLOv8 + FAISS), SlowMO (a concurrency-safe ticket booking backend in Spring Boot), and ZenStudent AI (a real-time stress-detection app using ML on physiological signals), plus an EDA course project on telco churn. Check the Projects section for details and links.",
   },
   {
     keywords: ["skill", "tech stack", "technologies", "stack", "language", "programming"],

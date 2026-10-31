@@ -15,6 +15,22 @@ export interface Project {
 // are supplied.
 export const projects: Project[] = [
   {
+    id: "cliniq",
+    title: "CliniQ",
+    category: "AI Voice Agent · Healthcare SaaS",
+    description:
+      "A multilingual voice-agent booking and clinic management SaaS. Self-hosted PyTorch speech models (IndicConformer, Whisper, MMS-TTS) handle Hindi, Tamil and English, while a Spring Boot backend guarantees a slot is never double-booked using row locks and a partial unique index.",
+    technologies: ["Python", "PyTorch", "FastAPI", "Java 21", "Spring Boot", "PostgreSQL", "Redis", "RabbitMQ", "React", "TypeScript", "Docker"],
+    image: "/images/projects/cliniq.png",
+    github: "https://github.com/anujsh2004/CliniQ",
+    live: "https://clini-q-gamma.vercel.app",
+    metrics: [
+      { label: "Concurrent Booking Test", value: "96 attempts → 32 bookings" },
+      { label: "Automated Tests", value: "350+" },
+    ],
+    featured: true,
+  },
+  {
     id: "skynetra",
     title: "SkyNetra",
     category: "Computer Vision · AI",
@@ -60,5 +76,16 @@ export const projects: Project[] = [
       { label: "Samples Processed", value: "5,000+" },
     ],
     featured: true,
+  },
+  {
+    id: "eda",
+    title: "EDA — Telco Customer Churn",
+    category: "Data Analysis · Course Project",
+    description:
+      "An exploratory data analysis notebook on the Telco customer churn dataset, covering data loading and inspection, basic statistical analysis and visualisation with Pandas, NumPy, Matplotlib and Seaborn.",
+    technologies: ["Python", "Pandas", "NumPy", "Matplotlib", "Seaborn", "Jupyter"],
+    image: "/images/projects/eda.png",
+    github: "https://github.com/anujsh2004/Anuj-Sharma",
+    featured: false,
   },
 ];

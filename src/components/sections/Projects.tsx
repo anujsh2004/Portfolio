@@ -2,13 +2,15 @@
 
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { ArrowRight, ArrowUpRight, FolderGit2, type LucideIcon, Satellite, Ticket, HeartPulse } from "lucide-react";
+import { ArrowRight, ArrowUpRight, FolderGit2, type LucideIcon, Satellite, Ticket, HeartPulse, Stethoscope, BarChart3 } from "lucide-react";
 import { projects, type Project } from "@/content/projects";
 import { site } from "@/content/site";
 
 // Representative icon shown on each project's placeholder thumbnail until a
 // real screenshot is supplied — keyed by project id, not invented per-project.
 const projectIcons: Record<string, LucideIcon> = {
+  cliniq: Stethoscope,
+  eda: BarChart3,
   skynetra: Satellite,
   slowmo: Ticket,
   "zenstudent-ai": HeartPulse,
